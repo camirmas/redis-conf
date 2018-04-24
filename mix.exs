@@ -22,7 +22,8 @@ defmodule RedisConf.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:redix, "~> 0.7.0"}
+      {:redix, "~> 0.7.0"},
+      {:faker, "~> 0.10"}
     ]
   end
 end

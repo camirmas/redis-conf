@@ -9,4 +9,8 @@ defmodule RedisConf do
   def ping do
     RedisConf.Worker.ping
   end
+
+  def command(args) do
+    RedisConf.Worker.command(args)
+  end
 end
